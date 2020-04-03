@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    public void dark(){
+    public void dark(){ //method for the dark mode
         View view = this.getWindow().getDecorView();
         view.setBackgroundColor(Color.parseColor ("#121212"));
         TextView Txt = findViewById(R.id.textView);
@@ -51,7 +51,7 @@ public class MainActivity extends AppCompatActivity {
         check = false;
     }
 
-    public void light(){
+    public void light(){ //method for the ligth mode
         View view = this.getWindow().getDecorView();
         view.setBackgroundColor(Color.parseColor ("#FFFFFF"));
         TextView Txt = findViewById(R.id.textView);
